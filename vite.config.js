@@ -5,5 +5,6 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   resolve: { alias: { '@': path.resolve(__dirname, 'src') } },
-  base: './', // safe for static hosting (important for Netlify/Vercel)
+  base: '/vetdrugs/'
+
 })
