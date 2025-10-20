@@ -1,5 +1,5 @@
 // VetDrugs PWA Service Worker
-const CACHE = 'vetdrugs-v4';   // bump to update cache
+const CACHE = 'vetdrugs-v5';   // bump to update cache
 const BASE  = '/vetdrugs/';
 
 const CORE = [
